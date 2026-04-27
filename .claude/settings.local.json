@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"C:\\\\Users\\\\munir\\\\Desktop\\\\podcast-analyzer\"; $env:PYTHONIOENCODING=\"utf-8\"; python fetch_autosubs.py 2>&1 | Select-String -NotMatch \"WARNING:|ffmpeg|JavaScript|deno\")"
+    ]
+  }
+}
